@@ -1,0 +1,29 @@
+﻿{
+  "intents": [
+    {
+      "intent": "ArmAwayIntent"
+    },
+    {
+      "intent": "ArmStayIntent"
+    },
+    {
+      "intent": "ArmNightIntent"
+    },
+    {
+      "intent": "DisarmIntent"
+    },
+    {
+      "intent": "ZoneIntent",
+      "slots": [
+        {
+          "name": "Zone",
+          "type": "ZONE"
+        },
+        {
+          "name": "OnOff",
+          "type":  "ONOFF"
+        }
+      ] 
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿ArmAwayIntent arm
+ArmAwayIntent arm away
+ArmStayIntent arm stay
+ArmNightIntent arm night
+
+DisarmIntent disarm
+DisarmIntent stop
+DisarmIntent shut up
+
+ZoneIntent turn zone {Zone} {OnOff}
